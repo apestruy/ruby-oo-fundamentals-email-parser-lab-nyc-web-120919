@@ -10,8 +10,9 @@ class EmailAddressParser
   end 
   
 def parse
-  emails.split.map do |email|
-  emails.split(' ')
-end.flatten.uniq
-end 
-end 
+  emails = @emails.delete(",")
+    email_array = emails.split
+    new_email_array = email_array.uniq
+    new_email_array
+  end
+end

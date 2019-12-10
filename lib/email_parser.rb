@@ -5,6 +5,6 @@
 class EmailParser
   attr_accessor :email_addresses
   array = []
-  array << email_addresses.parse(',')
+
   
 end 
